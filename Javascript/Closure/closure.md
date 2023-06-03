@@ -13,7 +13,7 @@ function outer(){
         console.log(name)
     }
 }
-const displayName = outer() //#Already outer function pop out from call stack
+const displayName = outer() //#Outer function pop out from call stack
 displayName() //Arifur Rahaman
 ```
 
