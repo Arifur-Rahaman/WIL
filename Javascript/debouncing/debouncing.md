@@ -1,0 +1,1 @@
+[3 way of debouncing](https://javascript.plainenglish.io/implementing-debouncing-in-react-f3316ef344f5)

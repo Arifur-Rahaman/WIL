@@ -1,0 +1,3 @@
+const arr = [1, 2, 3, 4]
+const even = arr.filter(element=>element%2===0)
+console.log(even)
