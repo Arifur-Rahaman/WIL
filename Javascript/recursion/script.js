@@ -25,13 +25,13 @@
 
 
 //***Get factorial using recursion***/
-function getFeactorial(n){
-    if(n>0){
-        return n*getFeactorial(n-1)
-    }
-    else return 1
-}
+// function getFeactorial(n){
+//     if(n>0){
+//         return n*getFeactorial(n-1)
+//     }
+//     else return 1
+// }
 
-const result = getFeactorial(4)
-console.log(result)
+// const result = getFeactorial(4)
+// console.log(result)
 
