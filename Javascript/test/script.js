@@ -1,26 +1,12 @@
-class Shape{
-    #name;
-    constructor(name){
-        this.#name = name
-    }
-    get getName(){
-        return this.#name
-    }
-    set setName(name){
-        this.#name = name
-    }
+const user = function (param, v1, v2, v3) {
+    return `ID No ${this.id}, password ${this.password}, ${v1} ${v2} ${v3}`;
 }
-
-class Circle extends Shape{
-    #radius
-    constructor(name, radius){
-        super(name)
-        this.#radius = radius
-    }
+const userDetails = {
+    id: 0O1,
+    password: "$$125hello",
 }
-
-const circle1 = new Circle('Circle1', 3)
-
-circle1.setName = "Rectangle"
-console.log(circle1.getName)
-
+let v1 = "data1";
+let v2 = "data2";
+let v3 = "data3";
+const result = user.call(userDetails, v1, v2, v3);
+console.log(result)

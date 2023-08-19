@@ -12,7 +12,7 @@ const UseMemo = () => {
             if(count){
                 count++
             }
-            else{
+            else{ 
                 count = 0
             }
         }
