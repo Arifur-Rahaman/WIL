@@ -9,19 +9,16 @@
 
 // console.dir(inner)
 
-const obj1 ={
-    name: 'arifur',
-    displayName(){
-        console.log(this.name)
+
+function printTillGivenNumber(n){
+    for(let i = 0; i<=n; i++){
+        setTimeout(()=>{
+            console.log(i)
+        }, i*1000)
     }
 }
+printTillGivenNumber(5)
 
-const displayName = obj1.displayName
 
-const obj2 = {
-    name: 'siflu',
-    displayName
-}
 
-obj2.displayName()
 
