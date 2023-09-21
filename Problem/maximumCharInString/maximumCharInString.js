@@ -1,4 +1,4 @@
-let str= 'asdfgggg kkdd'
+let str= 'asdfg     gggkkdd'
 
 const freq = {}
 let maxChar= ''
@@ -22,3 +22,4 @@ for(let char in freq){
 }
 
 console.log(maxChar, charCount)
+console.log(freq)
