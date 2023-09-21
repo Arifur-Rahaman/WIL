@@ -21,3 +21,9 @@ count +=1
 boj.count = 20
 obj.count++
 ```
+
+### Update to state but not reflect on the UI
+```javascript
+const copy = obj
+copy.count++
+```
